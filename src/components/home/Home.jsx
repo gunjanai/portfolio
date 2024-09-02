@@ -3,13 +3,15 @@ import Reveal from "./Reveal";
 
 function Home() {
   return (
-    <div className="flex flex-col justify-center my-16 w-full md:flex-row lg-flex-row">
-      <img
-        src="/images/profile.jpg"
-        className="w-full max-w-md mx-auto object-cover md:mx-8 lg:mx-8"
-        loading="lazy"
-        alt="Profile picture"
-      />
+    <div className="flex flex-col justify-center mb-16 w-full md:flex-row lg-flex-row">
+      <div className="w-full max-w-md mx-auto p-2 border-2 border-violet-200 rounded-lg md:mx-8 lg:mx-8">
+        <img
+          src="/images/profile.jpg"
+          className="w-full rounded-lg object-cover"
+          loading="lazy"
+          alt="Profile"
+        />
+      </div>
       <div className="flex flex-col justify-center mx-8 ">
         <Reveal>
           <span className="font-lobster font-medium text-7xl">
