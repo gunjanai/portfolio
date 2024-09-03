@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex justify-between h-44 w-full px-4 text-gray-900"
+      className="flex justify-between h-44 w-full px-4 text-gray-900 mt-16"
     >
       <div className="flex flex-col">
         <h1 className="text-4xl font-lobster font-bold text-black mx-8">
