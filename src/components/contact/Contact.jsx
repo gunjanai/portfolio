@@ -17,9 +17,9 @@ function Contact() {
       <div className="flex flex-col mr-16">
         <div className="flex">
           <img
-            src="https://img.icons8.com/?size=100&id=6Fsj3rv2DCmG&format=png&color=000000"
-            onClick={() => window.open("https://x.com/gunjansengar1", "_blank")}
-            alt="twitter"
+            src="https://img.icons8.com/?size=100&id=62856&format=png&color=000000"
+            onClick={() => window.open("https://github.com/gunjanai", "_blank")}
+            alt="github"
             className="w-12 cursor-pointer"
           />
           <img
@@ -30,6 +30,12 @@ function Contact() {
                 "_blank"
               )
             }
+            alt="twitter"
+            className="w-12 cursor-pointer"
+          />
+          <img
+            src="https://img.icons8.com/?size=100&id=6Fsj3rv2DCmG&format=png&color=000000"
+            onClick={() => window.open("https://x.com/gunjansengar1", "_blank")}
             alt="twitter"
             className="w-12 cursor-pointer"
           />
